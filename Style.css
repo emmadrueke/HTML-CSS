@@ -1,0 +1,20 @@
+@import './Fixed-Nav-Bar.css';
+@import './Page/Section.css';
+@import './AboutMeImage.css';
+
+.Page {
+    background-color: #8ddebe;
+    height: 100%;
+    align-self: stretch;
+    padding: 10px;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+body {
+    margin: 0;
+    margin-bottome: 0;
+}
