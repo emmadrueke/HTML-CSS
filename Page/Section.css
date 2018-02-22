@@ -1,36 +1,74 @@
+.Header {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background: #080149;
+    margin: 0;
+    padding: 10px;
+    font: 1.2em "Fira Sans", sans-serif;
 
 
-.Sections {
-   flex: 1;
-   padding: 20px;
-   background: #d1e9ec;
-   margin-bottom: 10px;
 }
 
-.Section-Row {
+.Header__Title {
+    color: #d4dafc;
+    
+}
+
+.Box1 {
+    display: flex;
+    background: #e0ecf7;
+    padding: 20px;
+    flex-direction: column;
+    margin: auto;
+    /* justify-content: space-between; */
+}
+
+.Projects {
     flex: 1;
     display: flex;
-    flex-direction: row;
-    
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    flex-basis: 30%;
     justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
-.Section-Row__left {
-    flex: 3;
-    padding: 20px;
-    box-sizing: border-box;
-    flex-basis: 40%;
-    background: #d1e9ec;
-    margin-right: 10px;
-}
+/* @media (max-width: 500px) {
+    .Projects{
+        display: flex;
+        flex-wrap: wrap;
+    }
+} */
 
-.Section-Row__right {
+.Projects__Box {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #020152;
     flex: 1;
-    padding: 10px;
-    box-sizing: border-box;
-    flex-basis: 10%;
-    text-align: right;   
-    background: #d1e9ec;
-    column-count: 1;
+    /* padding: 10px; */
 }
 
+.Box2 {
+    display: flex;
+    background: #020152;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.TextBox {
+    flex: 1;
+}
+
+.Box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Footer {
+    flex: 1;
+    display: flex;
+}
